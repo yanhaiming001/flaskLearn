@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>统一OCR平台</title>
+</head>
+<body>
+    <p>{{ stu }}</p>
+
+    <table border="1">
+        <thead>
+            <th>name</th>
+            <th>year</th>
+        </thead>
+        <tbody>
+            {% for item in stu %}
+                <tr>
+                    <td>{{ item.name }}</td>
+                    <td>{{ item.year }}</td>
+                </tr>
+
+            {% endfor %}
+        </tbody>
+    </table>
+
+
+</body>
+</html>

@@ -13,4 +13,17 @@ Flask学习点滴
     
     jsonfy:返回json
     send_file:上传文件
+3、flask中的request请求对象
+    request.method 请求方法
+    request.form   存储所有FormData中的所有数据
+    request.args   存放所有url中的所有数据
+    request.json
+    request.url     请求地址
+    request.host_url    主机地址转换成httpurl
+    request.host    主机地址
+    request.path
+    
+    
+    request.json 
+    request.data     
 
